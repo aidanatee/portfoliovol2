@@ -1,0 +1,301 @@
+body {
+	font-family: "Arial";
+
+}
+
+#page-wrapper {
+    height: 100%;
+    min-height: 100%;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    height: 1px;
+    position: relative;
+}
+
+#header, #section, #footer {
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+    border: 0px;
+    border-spacing: 0px;
+}
+
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+    margin: 0 auto;
+    background: #ffffff;
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    border-spacing: 0;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: table;
+    border-collapse: separate;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+header {
+	margin: 0 auto;
+    padding-right: 0px;
+    padding-bottom: 64px;
+    padding-left: 0px;
+    position: relative;
+    max-width: 1000px;
+
+
+}
+
+header .logo {
+    display: table-cell;
+    vertical-align: middle;
+    max-width:100%;
+    max-height:100%;
+}
+
+header.layout-logo-center .logo {
+    text-align: center;
+    display: block;
+    margin: 0 0 0px 0;
+    
+}
+
+header .logo.logo-image img {
+    
+    width: 700;
+    height: 250;
+    max-width: 60%;
+}
+
+img[Attributes Style] {
+    width: 400px;
+}
+
+header.layout-logo-center .menu {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header nav.menu {
+    display: table-cell;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+
+header nav.menu ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+header nav.menu ul li {
+    padding: 0;
+    display: inline-block;
+}
+
+
+header nav.menu ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header nav.menu ul li a:hover {
+    color: grey;
+}
+header nav.menu ul li a:active {
+    color: grey;
+}
+
+/*** Content ***/
+#section {
+    vertical-align: top;
+    padding-bottom: 64px;
+}
+
+#section > section {
+    display: block;
+}
+
+/*** Footer ***/
+#footer  {
+    height: 1px;
+    padding:0 0 64px 0px; 
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+
+#section > section {
+    display: block;
+}
+
+section, section a {
+    color: rgba(94, 88, 88, 1);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+}
+
+.shop-products {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.shop-menu.vertical {
+    width: 130px;
+    max-width: 300px;
+    min-width: 130px;
+    display: block;
+    position: absolute;
+    text-align: left;
+}
+
+.shop-products nav {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.shop-products nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.shop-menu.vertical ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px 7px 0px;
+    position: relative;
+}
+
+.shop-products nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+    padding: 0 12px;
+    font-size: 13px;
+}
+
+.shop-products nav ul li a{
+    text-decoration: none;
+  }
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.shop-products nav ul li a:active {
+color: rgba(149, 158, 149, 1);
+
+}
+.shop-products nav ul li a:hover {
+color: rgba(149, 158, 149, 1);
+}
+
+.shop-content-main {
+    margin: 0px 0px 0 150px;
+    display: block;
+   }
+
+.shop-static-grid {
+   
+    position: relative;
+    overflow: hidden;
+}
+
+div.gallery {
+   
+    margin-bottom: 5px;
+}
+
+div.gallery:hover {
+   
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 33.33333%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+
+
+
